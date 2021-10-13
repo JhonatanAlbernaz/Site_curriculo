@@ -1,0 +1,104 @@
+.height-633 {
+    height: 633px;
+}
+
+.background-color-menu-lateral {
+    background-color: #48cae4;
+}
+
+.espacamenteo-imagem {
+    margin-top: 125px;
+    margin-left: 10px;
+}
+
+.temanho-da-imagem-principal {
+    border-radius: 100%;
+    width: 175px;
+    border: 3px solid #00509d;
+}
+
+.alinhamento-do-link-principal {
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+.color-link-lateral {
+    text-decoration: none !important;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Roboto",sans-serif;
+    color: #00509d;
+    transition: all 0.7s;
+}
+
+.color-link-lateral:hover {
+    color: white;
+}
+
+.espacamento-texto-top {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.class-texto-top {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 76px;
+    color: black !important;
+    align-items: center;
+    line-height: 1;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.color-blue-sobrenome {
+    color: #0466c8;
+}
+
+.class-texto-endereco {
+    font-size: 22px !important;
+    font-family: 'Crimson Text', serif;
+    color: gray !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.div-descricao-topo {
+    width: 94%;
+    margin-top: 30px;
+}
+
+.descricao-sobre-mim {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
+
+.segunda-descricao-sobre-mim {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+}
+
+.icone-redes-sociais {
+    background-color: #000000;
+    color: white;
+    font-size: 35px;
+    border-radius: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    transition: all 0.7s;
+}
+
+.icone-redes-sociais:hover {
+    color: white;
+    background-color: #0466c8;
+}
