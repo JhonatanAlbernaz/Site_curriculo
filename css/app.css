@@ -102,3 +102,11 @@
     color: white;
     background-color: #0466c8;
 }
+
+.divisor-sobre-mim {
+    background-color: red;
+    height: 2px;
+    margin-left: 210px;
+    margin-top: -2px;
+    width: 85%;
+}
