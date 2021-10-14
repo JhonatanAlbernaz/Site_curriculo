@@ -61,3 +61,35 @@ $("#imagem_principal").on("mouseover", function(e) {
   });
 
   //====================================================================//
+
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
+  //====================================================================//
+
+  var menu_aberto = 0;
+
+  $("#row_menu_tablet").on("click", function(e) {
+
+    if(menu_aberto == 0){
+      abrirMenu();
+    }else{
+      fecharMenu();
+    }
+
+  });
+
+function abrirMenu(){
+  $("#conteudo_responsivo_dnone").show(7500);
+  $("#divisor_sobre-mim").css("margin-top", "665px");
+  $("#espancamento_div_top").css("margin-top", "320px");
+  menu_aberto = 1;
+  }
+  
+function fecharMenu(){
+  $("#conteudo_responsivo_dnone").hide(7500);
+  $("#divisor_sobre-mim").css("margin-top", "200px");
+  $("#espancamento_div_top").css("margin-top", "100px");
+  menu_aberto = 0;
+}

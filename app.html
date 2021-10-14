@@ -22,7 +22,7 @@
    
     <section class="container-fluid height-633">
      <div class="row height-633">
-      <div class="col-lg-2 background-color-menu-lateral">
+      <div class="col-lg-2 col-md-10 background-color-menu-lateral">
        <div class="espacamenteo-imagem">
         <img class="temanho-da-imagem-principal" src="imagens/imagem3.jpg" id="imagem_principal" />
        </div>
@@ -34,9 +34,20 @@
         <a class="color-link-lateral" href="#"> INTERESSES </a>
        </div>
       </div>
+
+      <div class="row width-144" id="row_menu_tablet">
+        <div class="col-md-6 padding-top-35">
+         <div class="menu-tablet" onclick="myFunction(this)" id="menu-responsivo">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+         </div>
+        </div>
+       </div>
+
       <div class="col-lg-10">
        <div class="container">
-        <div class="espacamento-texto-top">
+        <div class="espacamento-texto-top" id="espancamento_div_top">
          <h1 class="class-texto-top">  JHONATAN <span class="color-blue-sobrenome">  ALBERNAZ DE OLIVEIRA PEREIRA </span></h1>   
          <p class="class-texto-endereco"> VILA VERDE - PINHEIROS / ES · (27) 99844-4818 · <a class="text-decoration-none" href="#">  JHONATANALBERNAZ124@EMAIL.COM  </a></p>
          <div class="div-descricao-topo">
@@ -52,7 +63,7 @@
            Albert Einstein
           </p>
          </div>
-         <div class="mt-5">
+         <div class="mt-5 margin-top-1">
           <a class="icone-redes-sociais" href="https://web.whatsapp.com/send?phone=5527998444818" target="_blank" ><i class="fab fa-whatsapp" id="icone_fa_whatsapp"></i></a>
           <a class="icone-redes-sociais" href="https://www.instagram.com/jhonatan_albernaz_1/"><i class="fab fa-instagram" id="icone_fa_instagram"></i></a>
           <a class="icone-redes-sociais" href="https://github.com/JhonatanAlbernaz"><i class="fab fa-github" id="icone_fa_github"></i></a>
@@ -60,11 +71,23 @@
         </div>
        </div>
       </div>
+
      </div>
 
-     <div class="divisor-sobre-mim"></div>
+     <div class="row conteudo-responsivo" id="conteudo_responsivo_dnone">
+      <div class="col-md-12 div-espacamento-responsivo">
+        <a class="color-link-lateral" href="#"> SOBRE MIM </a><br>
+        <a class="color-link-lateral" href="#"> ESCOLARIDADE </a><br>
+        <a class="color-link-lateral" href="#"> HOBBIES </a><br>
+        <a class="color-link-lateral" href="#"> HABILIDADES </a><br>
+        <a class="color-link-lateral" href="#"> INTERESSES </a>
+      </div>
+     </div>
+
+     <div class="divisor-sobre-mim" id="divisor_sobre-mim"></div>
 
     </section>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
