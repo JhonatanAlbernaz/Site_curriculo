@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
 .height-633 {
     height: 633px;
 }
@@ -108,7 +112,7 @@
     height: 2px;
     margin-left: -15px;
     margin-top: 88px;
-    width: 1111px;
+    width: 1123px;
 }
 
 .div-espacamento-escolaridade {
@@ -151,6 +155,16 @@
 .margin-top-20 {
     margin-top: 25px;
 }
+
+.divisor-escolaridade {
+    background-color: #4ccae4;
+    height: 2px;
+    margin-left: -30px;
+    margin-top: 149px;
+    width: 1123px;
+}
+
+
 
 @media (max-width: 320px) {
     .temanho-da-imagem-principal {
@@ -246,7 +260,7 @@
         background-color: #4ccae4;
         height: 2px;
         margin-left: -15px;
-        margin-top: 350px;
+        margin-top: 40px;
         width: 320px;
     }
 
@@ -265,6 +279,47 @@
         padding-bottom: 5px;
         margin-right: 10px;
         transition: all 0.7s;
+    }
+
+    .height-633 {
+        height: 100px;
+    }
+
+    .h1-escolaridade {
+        font-weight: bold;
+        font-size: 36px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 70px;
+        margin-left: 15px;
+    }
+
+    .div-espacamento-escolaridade {
+        margin-left: 15px;
+    }
+
+    .curso-mscode {
+        text-transform: uppercase;
+        color: #2a81ea;
+        font-size: 1.225rem;
+        letter-spacing: .1em;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .tag-p-escolaridade {
+        width: 96%;
+        font-size: 17px;
+    }
+
+    .divisor-escolaridade {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 50px;
+        width: 320px;
     }
 }
 
@@ -362,7 +417,7 @@
         background-color: #4ccae4;
         height: 2px;
         margin-left: -15px;
-        margin-top: 245px;
+        margin-top: 50px;
         width: 375px;
     }
 
@@ -382,6 +437,33 @@
         margin-right: 10px;
         transition: all 0.7s;
     }
+
+    .height-633 {
+        height: 101px;
+    }
+
+    .h1-escolaridade {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 65px;
+        margin-left: 15px;
+    }
+
+    .div-espacamento-escolaridade {
+        margin-left: 15px;
+    }
+
+    .divisor-escolaridade {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 50px;
+        width: 375px;
+    }
+
 }
 
 @media (min-width:  376px) and (max-width: 576px) {
@@ -478,7 +560,7 @@
         background-color: #4ccae4;
         height: 2px;
         margin-left: -15px;
-        margin-top: 190px;
+        margin-top: 50px;
         width: 426px;
     }
 
@@ -497,6 +579,32 @@
         padding-bottom: 5px;
         margin-right: 10px;
         transition: all 0.7s;
+    }
+
+    .height-633 {
+        height: 100px;
+    }
+
+    .h1-escolaridade {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 70px;
+        margin-left: 15px;
+    }
+
+    .div-espacamento-escolaridade {
+        margin-left: 15px;
+    }
+
+    .divisor-escolaridade {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 45px;
+        width: 423px;
     }
 }
 
@@ -620,6 +728,28 @@
         width: 768px;
     }
 
+    .divisor-escolaridade {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 149px;
+        width: 768px;
+    }
+
+    .h1-escolaridade {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 70px;
+        margin-left: 25px;
+    }
+
+    .div-espacamento-escolaridade {
+        margin-left: 25px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -636,8 +766,8 @@
     .divisor-sobre-mim {
         background-color: #4ccae4;
         height: 2px;
-        margin-left: 156px;
-        margin-top: -2px;
+        margin-left: -15px;
+        margin-top: 35px;
         width: 853px;
     }
 
@@ -680,10 +810,25 @@
         display: none;
     }
 
+    .divisor-escolaridade {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 149px;
+        width: 853px;
+    }
 }
 
 @media (min-width: 1201px) {
     #conteudo_responsivo_dnone {
         display: none;
+    }
+
+    .divisor-escolaridade {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 149px;
+        width: 1123px;
     }
 }
