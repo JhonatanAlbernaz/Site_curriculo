@@ -164,7 +164,90 @@ html {
     width: 1123px;
 }
 
+.margin-left-50 {
+    margin-left: 50px;
+}
 
+.titulo-hobbies {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 50px;
+    color: black !important;
+    padding-top: 50px;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -255px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 271px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    margin-top: 1400px;
+}
+  
+#mySidenav a:hover {
+    left: 0;
+}
+  
+#about {
+    top: 20px;
+    background-color: #04AA6D;
+}
+  
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+  
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+  
+#contact {
+    top: 200px;
+    background-color: #555;
+}
+
+#pray {
+    top: 260px;
+    background-color: #800000;
+}
+
+#Physical {
+    top: 320px;
+    background-color: #cccc00;
+}
+
+#schedule {
+    top: 380px;
+    background-color: #000000;
+}
+
+#Bible {
+    top: 440px;
+    background-color: #333fff;
+}
+
+#mom {
+    top: 500px;
+    background-color: #008000;
+}
+
+#family {
+    top: 560px;
+    background-color: #D2691E;
+}
+
+#church {
+    top: 620px;
+    background-color: #262626;
+}
 
 @media (max-width: 320px) {
     .temanho-da-imagem-principal {
@@ -321,7 +404,33 @@ html {
         margin-top: 50px;
         width: 320px;
     }
-}
+    
+    .margin-left-50 {
+        margin-left: 15px;
+    }
+
+    .titulo-hobbies {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 100px;
+    }
+
+    #mySidenav a {
+        position: absolute;
+        left: -255px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 271px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        margin-top: 1900px;
+    }
+}    
 
 @media (min-width: 321px) and (max-width: 375px) {
     .temanho-da-imagem-principal {
@@ -462,6 +571,32 @@ html {
         margin-left: -30px;
         margin-top: 50px;
         width: 375px;
+    }
+
+    .titulo-hobbies {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 100px;
+    }
+
+    .margin-left-50 {
+        margin-left: 15px;
+    }
+
+    #mySidenav a {
+        position: absolute;
+        left: -255px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 271px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        margin-top: 1700px;
     }
 
 }
@@ -605,6 +740,32 @@ html {
         margin-left: -30px;
         margin-top: 45px;
         width: 423px;
+    }
+    
+    .margin-left-50 {
+        margin-left: 15px;
+    }
+
+    .titulo-hobbies {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 100px;
+    }
+
+    #mySidenav a {
+        position: absolute;
+        left: -255px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 271px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        margin-top: 1580px;
     }
 }
 
@@ -750,6 +911,32 @@ html {
         margin-left: 25px;
     }
 
+    .margin-left-50 {
+        margin-left: 25px;
+    }
+
+    .titulo-hobbies {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        padding-top: 100px;
+    }
+
+    #mySidenav a {
+        position: absolute;
+        left: -255px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 271px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        margin-top: 1650px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -816,6 +1003,15 @@ html {
         margin-left: -30px;
         margin-top: 149px;
         width: 853px;
+    }
+
+    .titulo-hobbies {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-bottom: 50px;
+        color: black !important;
+        margin-top: 80px;
     }
 }
 
