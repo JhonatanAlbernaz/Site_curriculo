@@ -94,4 +94,82 @@ function fecharMenu(){
   menu_aberto = 0;
 }
 
-//====================================================================// 
+//====================================================================//
+
+$("#html5").on("mouseover", function(e) {
+  $("#html5").css("max-width", "100%");
+  $("#html5").css("-moz-transition", "all 0.3s");
+  $("#html5").css("-webkit-transition", "all 0.3s");
+  $("#html5").css("transition", "all 0.3s");
+  $("#html5").css("-moz-transform", "scale(1.1)");
+  $("#html5").css("-webkit-transform", "scale(1.5,1.5)");
+  $("#html5").css("color", "blue");
+});
+  
+$("#html5").on("mouseleave", function(e) {
+  $("#html5").css("-moz-transform", "");
+  $("#html5").css("-webkit-transform", "");
+  $("#html5").css("color", "gray");
+});
+
+//====================================================================//
+
+$("#css").on("mouseover", function(e) {
+  $("#css").css("max-width", "100%");
+  $("#css").css("-moz-transition", "all 0.3s");
+  $("#css").css("-webkit-transition", "all 0.3s");
+  $("#css").css("transition", "all 0.3s");
+  $("#css").css("-moz-transform", "scale(1.1)");
+  $("#css").css("-webkit-transform", "scale(1.5,1.5)");
+  $("#css").css("color", "#FF4500");
+});
+  
+$("#css").on("mouseleave", function(e) {
+  $("#css").css("-moz-transform", "");
+  $("#css").css("-webkit-transform", "");
+  $("#css").css("color", "gray");
+});
+
+//====================================================================//
+
+$("#js").on("mouseover", function(e) {
+  $("#js").css("max-width", "100%");
+  $("#js").css("-moz-transition", "all 0.3s");
+  $("#js").css("-webkit-transition", "all 0.3s");
+  $("#js").css("transition", "all 0.3s");
+  $("#js").css("-moz-transform", "scale(1.1)");
+  $("#js").css("-webkit-transform", "scale(1.5,1.5)");
+  $("#js").css("color", "#FFFF00");
+});
+  
+$("#js").on("mouseleave", function(e) {
+  $("#js").css("-moz-transform", "");
+  $("#js").css("-webkit-transform", "");
+  $("#js").css("color", "gray");
+});
+
+//====================================================================//
+
+$(document).ready(function(){
+
+  $(".counter").each(function() {
+    var $this = $(this),
+
+        countTo = $this.attr("data-count");
+
+    $({ countNum: $this.text()}).animate({
+      countNum: countTo
+    },
+  
+    {
+      duration: 3000,
+      easing:"linear",
+      step: function() {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function() {
+        $this.text(this.countNum);
+      }
+    });
+  });
+});

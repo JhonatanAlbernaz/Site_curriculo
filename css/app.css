@@ -249,6 +249,51 @@ html {
     background-color: #262626;
 }
 
+.titulo-habilidades {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 50px;
+    color: black !important;
+    padding-top: 50px;
+}
+
+.divisor-hobbies {
+    background-color: #4ccae4;
+    height: 2px;
+    margin-left: -30px;
+    margin-top: 210px;
+    width: 1123px;
+}
+
+.subtitulo-habilidades {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.icone-linguagem-programacao {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    flex-direction: row;
+    color: gray;
+    margin-right: 15px;
+}
+
+.margin-top-70 {
+    margin-top: 80px;
+}
+
+.numero-animation {
+    color: #465675;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
 @media (max-width: 320px) {
     .temanho-da-imagem-principal {
         display: none;
@@ -430,6 +475,14 @@ html {
         border-radius: 0 5px 5px 0;
         margin-top: 1900px;
     }
+
+    .divisor-hobbies {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 750px;
+        width: 335px;
+    }
 }    
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -599,6 +652,14 @@ html {
         margin-top: 1700px;
     }
 
+    .divisor-hobbies {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 730px;
+        width: 390px;
+    }
+
 }
 
 @media (min-width:  376px) and (max-width: 576px) {
@@ -766,6 +827,14 @@ html {
         color: white;
         border-radius: 0 5px 5px 0;
         margin-top: 1580px;
+    }
+
+    .divisor-hobbies {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 745px;
+        width: 440px;
     }
 }
 
@@ -937,6 +1006,14 @@ html {
         margin-top: 1650px;
     }
 
+    .divisor-hobbies {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 240px;
+        width: 783px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1011,7 +1088,15 @@ html {
         font-family: 'Big Shoulders Display', cursive;
         margin-bottom: 50px;
         color: black !important;
-        margin-top: 80px;
+        margin-top: 35px;
+    }
+
+    .divisor-hobbies {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -30px;
+        margin-top: 190px;
+        width: 866px;
     }
 }
 
