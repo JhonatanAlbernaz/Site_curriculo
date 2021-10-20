@@ -29,13 +29,13 @@
        <div class="text-center alinhamento-do-link-principal">
         <a class="color-link-lateral" href="#sobre-mim"> SOBRE MIM </a>
         <a class="color-link-lateral" href="#escolaridade"> ESCOLARIDADE </a>
-        <a class="color-link-lateral" href="#"> HOBBIES </a><br>
-        <a class="color-link-lateral" href="#"> HABILIDADES </a>
-        <a class="color-link-lateral" href="#"> INTERESSES </a>
+        <a class="color-link-lateral" href="#hobbies"> HOBBIES </a><br>
+        <a class="color-link-lateral" href="#habilidades"> HABILIDADES </a>
+        <a class="color-link-lateral" href="#interesses"> INTERESSES </a>
        </div>
       </div>
 
-      <div class="row width-144 menu-mobile" id="row_menu_tablet">
+      <div class="row width-144 fixed-top menu-mobile" id="row_menu_tablet">
         <div class="col-md-6 padding-top-35">
          <div class="menu-tablet" onclick="myFunction(this)" id="menu-responsivo">
           <div class="bar1"></div>
@@ -45,8 +45,8 @@
         </div>
        </div>
 
-      <div class="col-lg-10 overflow-y" >
-       <div class="container">
+      <div class="col-lg-10 overflow-y">
+       <div class="container" id="sobre-mim">
         <div class="espacamento-texto-top" id="espancamento_div_top">
          <h1 class="class-texto-top">  JHONATAN <span class="color-blue-sobrenome">  ALBERNAZ DE OLIVEIRA PEREIRA </span></h1>   
          <p class="class-texto-endereco"> VILA VERDE - PINHEIROS / ES · (27) 99844-4818 · <a class="text-decoration-none" href="#">  JHONATANALBERNAZ124@EMAIL.COM  </a></p>
@@ -98,7 +98,7 @@
 
        </div>
 
-       <div class="container height-633">
+       <div class="container height-633" id="hobbies">
         <div class="margin-left-50">
          <h1 class="titulo-hobbies"> HOBBIES </h1>
          <div id="mySidenav" class="sidenav">
@@ -119,7 +119,7 @@
 
        <div class="divisor-hobbies"></div>
 
-       <div class="container height-633">
+       <div class="container height-633" id="habilidades">
         <div class="margin-left-50">
          <h1 class="titulo-habilidades"> HABILIDADES </h1>
          <div class="margin-top-70">
@@ -129,26 +129,48 @@
           <i class="fab fa-js-square icone-linguagem-programacao" id="js"></i>
          </div>
          <div>
-          <h6><b> HTML5 </b></h6>
-          <span class="counter numero-animation" data-count="236029663"> 231,713,000 </span>
-          <h6><b> CSS </b></h6>
-          <span class="counter numero-animation" data-count="236029663"> 231,713,000 </span>
-          <h6><b> JavaScript </b></h6>
-          <span class="counter numero-animation" data-count="236029663"> 231,713,000 </span>
+          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+           <div class="card-header"> HABILIDADES </div>
+           <div class="card-body">
+            <h6 class="card-title"> HTML5 <span class="numero-um-habilidades"> 57.33%</span> </h6>
+            <h6 class="card-title"> CSS <span class="numero-dois-habilidades"> 48.43% </span></h6>
+            <h6 class="card-title"> JavaScript <span class="numero-habilidades"> 4.23% </span></h6>
+           </div>
+          </div>
          </div>
         </div>
        </div>
 
+       <div class="divisor-habilidades"></div>
+
+       <div class="container height-633" id="interesses">
+        <div class="margin-left-50">
+         <h1 class="titulo-habilidades"> INTERESSES </h1>
+         <p class="primeira-descricao">
+          Além de ser um estudante e passar um certo tempo estudando, aproveito para tirar um puco de tempo para ficar ao ar livre. 
+          Gosto de fazer caminhada e correr sentir a brisa do vento. Uma realidade bem diferente do que ficar no quarto estudando.
+         </p>
+         <p class="segunda-descricao">
+          Mas, passo grande parte do meu dia em casa tendo um pouco de distração. Assistindo algun vídeo, ouvindo um pouco de 
+          música, coletando informações relevantes sobre o Brasil e no contexto mundial. Dedicar um tempo à família, no entanto, 
+          é fundamental para uma vida completa e realizada. E nutre o amor por quem, muitas vezes, esteve presente em toda a sua 
+          trajetória.
+         </p>
+        </div>
+       </div>
+
+       <div class="divisor-interesses"></div>
+
       </div>
      </div>
 
-     <div class="row conteudo-responsivo" id="conteudo_responsivo_dnone">
+     <div class="row conteudo-responsivo fixed-top" id="conteudo_responsivo_dnone">
       <div class="col-md-12 div-espacamento-responsivo">
-        <a class="color-link-lateral" href="#"> SOBRE MIM </a><br>
-        <a class="color-link-lateral" href="#"> ESCOLARIDADE </a><br>
-        <a class="color-link-lateral" href="#"> HOBBIES </a><br>
-        <a class="color-link-lateral" href="#"> HABILIDADES </a><br>
-        <a class="color-link-lateral" href="#"> INTERESSES </a>
+        <a class="color-link-lateral" href="#sobre-mim"> SOBRE MIM </a><br>
+        <a class="color-link-lateral" href="#escolaridade"> ESCOLARIDADE </a><br>
+        <a class="color-link-lateral" href="#hobbies"> HOBBIES </a><br>
+        <a class="color-link-lateral" href="#habilidades"> HABILIDADES </a><br>
+        <a class="color-link-lateral" href="#interesses"> INTERESSES </a>
       </div>
      </div>
     </section>

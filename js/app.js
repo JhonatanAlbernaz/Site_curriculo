@@ -90,7 +90,7 @@ function abrirMenu(){
 function fecharMenu(){
   $("#conteudo_responsivo_dnone").hide(7500);
   $("#divisor_sobre-mim").css("margin-top", "200px");
-  $("#espancamento_div_top").css("margin-top", "100px");
+  $("#espancamento_div_top").css("margin-top", "200px");
   menu_aberto = 0;
 }
 
@@ -149,27 +149,3 @@ $("#js").on("mouseleave", function(e) {
 });
 
 //====================================================================//
-
-$(document).ready(function(){
-
-  $(".counter").each(function() {
-    var $this = $(this),
-
-        countTo = $this.attr("data-count");
-
-    $({ countNum: $this.text()}).animate({
-      countNum: countTo
-    },
-  
-    {
-      duration: 3000,
-      easing:"linear",
-      step: function() {
-        $this.text(Math.floor(this.countNum));
-      },
-      complete: function() {
-        $this.text(this.countNum);
-      }
-    });
-  });
-});

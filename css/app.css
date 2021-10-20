@@ -286,12 +286,61 @@ html {
     margin-top: 80px;
 }
 
-.numero-animation {
-    color: #465675;
+.numero-habilidades {
+    color: #000000;
     font-weight: bold;
     letter-spacing: 0.04em;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: 'Oswald', sans-serif;
+    margin-left: 15px;
+}
+
+.numero-dois-habilidades {
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 60px;
+}
+
+.numero-um-habilidades {
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 36px;
+}
+
+.divisor-habilidades {
+    background-color: #4ccae4;
+    height: 2px;
+    margin-left: -15px;
+    margin-top: 88px;
+    width: 1123px;
+}
+
+.primeira-descricao {
+    width: 91%;
+    margin-top: 50px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.segunda-descricao {
+    width: 91%;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.divisor-interesses {
+    background-color: #4ccae4;
+    height: 2px;
+    margin-left: -15px;
+    width: 1123px;
 }
 
 @media (max-width: 320px) {
@@ -356,6 +405,7 @@ html {
 
     .espacamento-texto-top {
         margin-left: 15px;
+        margin-top: 180px;
     }
 
     .class-texto-endereco {
@@ -482,6 +532,34 @@ html {
         margin-left: -30px;
         margin-top: 750px;
         width: 335px;
+    }
+
+    .divisor-habilidades {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        margin-top: 215px;
+        width: 320px;
+    }
+
+    .primeira-descricao {
+        width: 91%;
+        margin-top: 50px;
+        margin-bottom: 26px;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .divisor-interesses {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        width: 320px;
+        margin-top: 65px;
+    }
+
+    .height-100 {
+        height: 25%;
     }
 }    
 
@@ -660,6 +738,39 @@ html {
         width: 390px;
     }
 
+    .divisor-habilidades {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        margin-top: 210px;
+        width: 375px;
+    }
+
+    .primeira-descricao {
+        width: 91%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .divisor-interesses {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        width: 375px;
+        margin-top: 55px;
+    }
+
+    .height-100 {
+        height: 25%;
+    }
+
+    .espacamento-texto-top {
+        margin-left: 15px;
+        margin-top: 180px;
+    }
+
 }
 
 @media (min-width:  376px) and (max-width: 576px) {
@@ -724,6 +835,7 @@ html {
 
     .espacamento-texto-top {
         margin-left: 15px;
+        margin-top: 180px;
     }
 
     .class-texto-endereco {
@@ -836,6 +948,34 @@ html {
         margin-top: 745px;
         width: 440px;
     }
+
+    .divisor-habilidades {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        margin-top: 220px;
+        width: 425px;
+    }
+
+    .primeira-descricao {
+        width: 91%;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .divisor-interesses {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        width: 425px;
+        margin-top: 65px;
+    }
+
+    .height-100 {
+        height: 25%;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -891,6 +1031,7 @@ html {
         width: 144px;
         background-color: #48cae4;
         height: 120px;
+        margin-left: 625px;
     }
 
     .padding-top-35 {
@@ -899,21 +1040,16 @@ html {
 
     .conteudo-responsivo {
         padding-left: 25px;
-        margin-top: -511px;
+        margin-top: 120px;
         background-color: #ffe6a7;
         box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
         height: 260px;
         padding-top: 23px;
-    }
+    }    
 
     .div-espacamento-responsivo {
         line-height: 45px;
         margin-top: -5px;
-    }
-
-    .espacamento-texto-top {
-        margin-left: 50px;
-        margin-top: 320px;
     }
 
     #conteudo_responsivo_dnone {
@@ -922,7 +1058,7 @@ html {
 
     .espacamento-texto-top {
         margin-left: 25px;
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .class-texto-top {
@@ -1014,6 +1150,29 @@ html {
         width: 783px;
     }
 
+    .divisor-habilidades {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        margin-top: 0px;
+        width: 768px;
+    }
+
+    .divisor-interesses {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        width: 767px;
+    }
+
+    .primeira-descricao {
+        width: 91%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1098,6 +1257,29 @@ html {
         margin-top: 190px;
         width: 866px;
     }
+
+    .divisor-habilidades {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        margin-top: 0px;
+        width: 850px;
+    }
+
+    .primeira-descricao {
+        width: 91%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .divisor-interesses {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        width: 853px;
+    }
 }
 
 @media (min-width: 1201px) {
@@ -1111,5 +1293,16 @@ html {
         margin-left: -30px;
         margin-top: 149px;
         width: 1123px;
+    }
+
+    .divisor-interesses {
+        background-color: #4ccae4;
+        height: 2px;
+        margin-left: -15px;
+        width: 1123px;
+    }
+
+    .height-100 {
+        height: 100%;
     }
 }
