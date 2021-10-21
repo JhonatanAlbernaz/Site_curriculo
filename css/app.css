@@ -381,8 +381,11 @@ html {
 
     .menu-mobile {
         position: absolute;
-        left: 255px;
-        top: 35px;
+        left: 265px;
+        top: 0px;
+        height: 100px;
+        background-color: #4ccae4;
+        padding-top: 35px;
     }
 
     #conteudo_responsivo_dnone {
@@ -559,7 +562,7 @@ html {
     }
 
     .height-100 {
-        height: 25%;
+        height: 100%;
     }
 }    
 
@@ -601,8 +604,11 @@ html {
 
     .menu-mobile {
         position: absolute;
-        left: 300px;
-        top: 35px;
+        left: 315px;
+        top: 0px;
+        background-color: #4ccae4;
+        height: 101px;
+        padding-top: 33px;
     }
 
     #conteudo_responsivo_dnone {
@@ -763,7 +769,7 @@ html {
     }
 
     .height-100 {
-        height: 25%;
+        height: 100%;
     }
 
     .espacamento-texto-top {
@@ -811,8 +817,11 @@ html {
 
     .menu-mobile {
         position: absolute;
-        left: 350px;
-        top: 35px;
+        left: 360px;
+        top: 0px;
+        background-color: #4ccae4;
+        height: 32%;
+        padding-top: 25px;
     }
 
     #conteudo_responsivo_dnone {
@@ -974,7 +983,7 @@ html {
     }
 
     .height-100 {
-        height: 25%;
+        height: 100%;
     }
 }
 
